@@ -1,0 +1,19 @@
+P
+{
+ display: block;
+}
+
+fieldset
+{
+ width: 400px;
+ height: 300px;
+ display: block; 
+ border: 50% auto;
+ margin: 50% auto;
+ padding: 50% auto;
+}
+
+fieldset input: nth-child(3)
+{
+ margin-top: 5px;
+}
