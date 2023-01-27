@@ -34,15 +34,15 @@ overflow: hidden;
     }
 25%
     {
- transform: translateX(-300px);
+ transform: translateX(-450px);
     }
 50%
     {
-     transform: translateX(-600px);
+     transform: translateX(-900px);
     }
 75%
     {
-     transform: translateX(-900px);
+     transform: translateX(0px);
     }
 100%
     {
