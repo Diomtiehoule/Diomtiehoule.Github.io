@@ -1,20 +1,74 @@
+body
+{
+ background : linear-gradient( to bottom right, green, white);
+}
+
 P
 {
  display: block;
 }
 
-fieldset
+#formulaire
 {
- width: 40%;
- height: 70%;
+ padding: 5px auto;
 }
 
-fieldset input: nth-child(3)
+fieldset
+{
+ width: 500px;
+ height: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 25px;
+}
+
+fieldset img
+{
+ margin-left: 200px;
+}
+
+fieldset .identifiant input
 {
  margin-top: 5px;
+    width: 350px;
+    height: 10px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-top: 40px;
 }
+
 fieldset svg
 {
  font-size: 80px;
     color: blue;
 }
+
+fieldset h1
+{ 
+ padding-top: 50px;
+}
+
+fieldset #enregistrer input
+{
+ padding-left: 25px;
+    padding: 0 auto;
+}
+
+fieldset .identifiant p
+{
+ padding-left: 50px;
+    padding-top: 45px;
+}
+
+fieldset .valider
+{
+ background-color: green;
+margin-left: 200px;
+    opacity: 0.70;
+    color: white;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+}
+
