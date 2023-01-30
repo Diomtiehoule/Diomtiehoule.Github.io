@@ -39,11 +39,12 @@ header
 {
      width: 1440;
      height: 73px;
-     background: black;
+     background: #85C1E9;
 }
 .container1 img
 {
  position: relative;
+    
 }
 .menu-deroulant
 {
@@ -130,6 +131,11 @@ header nav ul li
         
 }
 
+.container1 a img
+{
+ padding-top: 08px;
+}
+
 
 
 
@@ -165,7 +171,7 @@ header nav ul li
 
 #image_principale
 {
-   background: url('az-assurance-auto.png');
+   background: url('assurance-auto.jpg');
     background-size: cover;
     height: 600px;
     width: 100%;
@@ -387,13 +393,53 @@ width: 100%;
 }
 #avantages .article1
 {
- margin-right: 180px;
+ margin-right: 110px;
 }
 #avantages .article2
 {
- margin-left: 90px;
+ margin-left: 0px;
 }
 
+/* BONUS */
+
+#bonus
+{
+    background-color: #efefef;
+    padding: 60px 0px;
+}
+
+#bonus article
+{
+ width: 360px;
+    height: 200px;
+}
+
+#bonus article:first-child
+{
+  
+}
+
+#bonus .bonus1
+{
+    width: 252px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.overlay
+{
+    background: rgba(255,255,255, 0.5);
+    height: 100%;
+    width: 130px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+.overlay p
+{
+ 
+}
 
 
 /* FOOTER */
