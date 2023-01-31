@@ -1,6 +1,6 @@
 body
 {
- background : linear-gradient( to bottom right, green, white);
+ background : linear-gradient( to bottom right, #02b8dd, white);
 }
 
 P
@@ -70,5 +70,10 @@ margin-left: 200px;
     width: 70px;
     height: 40px;
     border-radius: 10px;
+}
+.valider:hover
+{
+ color: white;
+    background-color:  #02b8dd;
 }
 
