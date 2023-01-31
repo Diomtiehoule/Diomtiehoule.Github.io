@@ -5,18 +5,62 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="a%20propos.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     </head>
     
     <body>
-        <header> 
-
+        
+        <header>
+         <a href="index.html" alt="acceuil"><h1>Retour</h1></a>
         </header>
-          <h1> A PROPOS DE NOUS </h1>  
-     <div id="voir">
-        <div class="images">
-            <img src="a propos1.jpg" alt="a propos1">
-            <img src="a propos2.jpg" alt="a propos2">
-            <img src="a propos3.jpg" alt="a propos3">
-         </div>
+        
+        <div class="slider">
+            
+            <input type="radio" name="slide" id="slide-1" checked>
+            <input type="radio" name="slide" id="slide-2">
+            <input type="radio" name="slide" id="slide-3">
+            
+            
+           <div class="slides">
+             <div class="slide slide-1"></div>
+              <div class="slide slide-2"></div>
+              <div class="slide slide-3"></div>
+            </div>
+            
+            <div class="arrows arrow-left">
+                <label for="slide-3">
+                   <span><i class="fas fa-angle-left"</span>
+                </label>
+                   
+                <label for="slide-1">
+                   <span><i class="fas fa-angle-left"</span>
+                </label>
+                       
+                <label for="slide-2">
+                   <span><i class="fas fa-angle-left"</span>
+                </label>
+            </div>
+         
+                    <div class="arrows arrow-right">
+                <label for="slide-2">
+                   <span><i class="fas fa-angle-right"</span>
+                </label>
+                   
+                <label for="slide-3">
+                   <span><i class="fas fa-angle-right"</span>
+                </label>
+                       
+                <label for="slide-1">
+                   <span><i class="fas fa-angle-right"</span>
+                </label>
+            </div>
+                    
+            <div class="dots">
+                <label for="slide-1"></label>
+                <label for="slide-2"></label>
+                <label for="slide-3"></label>
+                    
+                    </div>     
+         
         </div>
     </body>
