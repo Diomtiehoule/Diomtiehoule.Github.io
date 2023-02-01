@@ -15,6 +15,25 @@ header
  height: 50px;
     background-color: black;
 }
+header .icon-link a
+{
+ float: right;
+    color: white;
+    font-size: 50px;
+}
+header .link
+{ 
+ padding-top: 20px;
+}
+.link a
+{
+ text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
 body
 {
  width: 1349px;
@@ -82,7 +101,7 @@ background-color: grey;
  border-radius: 10px;
 }
 
-@media all and(max-width: 100px){
+@media all and(max-width: 1300px){
     body{
         width: 90px;}
 }
@@ -96,9 +115,21 @@ background-color: grey;
     padding-top: 10px;
 }
 
+/* PLUS */
+
+#plus .localisation
+{
+ text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
 
 
-
+.localisation img
+{
+ width: 50px;
+    height: 50px;
+}
 
 
 /* FOOTER */

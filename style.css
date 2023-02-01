@@ -43,13 +43,30 @@ header
 {
      width: 1440;
      height: 73px;
-     background: white;
+     background: black;
 }
-.container1 img
+
+
+header .link
+{
+
+    padding-top: 20px;
+}
+
+.link a
+{
+ color: white;
+        padding-top: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.icon-link
 {
  position: relative;
+    right: 0;
     
 }
+
 .menu-deroulant
 {
  list-style: none;
@@ -225,154 +242,8 @@ width: 100%;
 
 /* INFORMATION */
 
-#information #section1
-{
- margin: 0 auto;
-    font-family: basic;
-}
-
-#information #section1 .elements ul li
-{
- padding-bottom: 5px;
-    padding-top: 5px;
-}
-#section1 h1
-{
- color: black;
-    padding-left: 40px;
-    padding-top: 20px;
-    font-size: 20px;
-}
-
-#section1 .elements ul
-{
- display: flex;
-    text-decoration: none;
-    list-style: none;
 
 
-}
-#section1 .elements ul li
-{
- margin-right: 50px;
-    text-decoration: none;
-    margin-left: 40px;
-    margin-top: 150px;
-    text-align: center;
-    list-style-type: none;
-    padding-left: 70px;
-    color: black;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-
-
-#information #section2 h1
-{
- border-bottom-width: 100px;
-}
-
-#information .liste
-{
-    display: flex;
-    margin-right: 250px;
-    margin-top: 50px;
-    margin-bottom: 120px;
-    margin-left: 30px;
-    gap: 20px;
-}
-#information .liste .nav1
-{
- margin-right: 250px;
-    color: #34B3E9;
-}
-
-#information .liste2 .nav2
-{
- margin-right: 250px;
-    color: black;;
-}
-
-#information .liste3 .nav3
-{
- margin-right: 250px;
-    color: black;
-}
-.trait1
-{
- border: 2px solid;
-    color: #34B3E9;
-}
-
-.trait2
-{
- border: 2px solid;
-    color: black;
-}
-
-.trait3
-{
- border: 2px solid;
-    color: black;
-}
-
-#
-#section2
-{
- display: flex;
-}
-#section2 .class1
-{
- position: relative;
-}
-
-
-#informmation #section2 .class1 .dt
-
-{ 
- border: 1px solid;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-}
-
-#section2 .class2
-{
- position: absolute;
-     left: 50%;
-    width: 650px;
-    height: 200px;
-    border-radius: 20px;
-    margin-top: 0px;
- margin-bottom: 10px;
-
-}
-#section3
-{
- display: flex;
-}
-#section3 .class3
-{
- position: relative;
-}
-#section3 .class3
-{
- position: absolute;
- left: 50%;
- background-color: grey;
- width: 650px;
- height: 200px;
- border-radius: 20px;
-}
-#section3 .class3 h1
-{
- border-bottom-style: solid;
-    border-bottom: 2px;
-    
-    border-bottom-width: 50px;
-    border-bottom-color: blue;
-}
 .clear
 {
  clear: both;
