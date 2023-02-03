@@ -23,7 +23,9 @@ header .icon-link a
 }
 header .link
 { 
- padding-top: 20px;
+    float: right;
+    padding-right: 20px;
+ padding-top: 10px;
 }
 .link a
 {
